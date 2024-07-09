@@ -1,6 +1,4 @@
 import {Stack, Tabs} from "expo-router";
-import { AntDesign } from '@expo/vector-icons';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { FontAwesome } from '@expo/vector-icons';
 
 export default function RootLayout() {
@@ -10,8 +8,8 @@ export default function RootLayout() {
             tabBarLabel: 'Home',
             tabBarIcon: red => <FontAwesome name="home" size={24} color="#000" />
         }}/>
-        <Tabs.Screen name="report"  options={{
-            tabBarLabel: 'Report',
+        <Tabs.Screen name="alart"  options={{
+            tabBarLabel: 'Alart',
             tabBarIcon: red => <FontAwesome name="book" size={24} color="#000"/>
         }}/>
         <Tabs.Screen name="transaction"  options={{
